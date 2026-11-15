@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Bigfoot Tires &amp; Repairs | 24-hour truck repair in West Texas (preview)</title>
+<meta name="description" content="Preview page made for Bigfoot Tires &amp; Repairs: 24-hour roadside assistance, truck, trailer and diesel repair, new and used tires in Claude, Vega and Merkel, Texas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --road:#0d0e0c; --road-2:#171916; --sign:#0b5e3c; --sign-2:#0e7149;
+  --lime:#9edd10; --yellow:#ffd21f; --white:#f5f7ee; --soft:#c9cdbf; --paper:#ecece4; --ink:#11130f;
+  --m:clamp(18px,4vw,56px);
+  --step-small:clamp(0.8125rem,0.79rem + 0.1vw,0.875rem);
+  --step-body:clamp(1.0625rem,1rem + 0.25vw,1.1875rem);
+  --step-lead:clamp(1.25rem,1.1rem + 0.7vw,1.625rem);
+  --step-head:clamp(2.5rem,1.2rem + 5vw,5.5rem);
+  --display:"Bebas Neue","Arial Narrow",Impact,sans-serif;
+  --text:"EB Garamond",Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--road);color:var(--white);font-family:var(--text);font-size:var(--step-body);line-height:1.45;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3,.d{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:-0.02em;line-height:.88}
+h2{font-size:var(--step-head)}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+::selection{background:var(--lime);color:var(--ink)}
+.note{background:var(--yellow);color:var(--ink);font-size:var(--step-small);text-align:center;padding:8px var(--m)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 28px;background:var(--yellow);color:var(--ink);font-family:var(--display);font-size:1.75rem;letter-spacing:0;text-decoration:none;text-transform:uppercase;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{background:var(--white);transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.wrap{padding-left:var(--m);padding-right:var(--m)}
+
+/* header */
+.top{display:flex;justify-content:space-between;align-items:center;padding:20px var(--m)}
+.top .name{font-family:var(--display);font-size:1.5rem;text-transform:uppercase;text-decoration:none}
+.top .name b{color:var(--lime);font-weight:400}
+.top a.call{font-size:var(--step-body);text-underline-offset:4px}
+
+/* hero */
+.hero{text-align:center;padding:clamp(8px,2vh,24px) var(--m) clamp(56px,9vh,110px)}
+.hero figure{width:min(31vw,400px,36svh);margin:0 auto;aspect-ratio:4/5;overflow:hidden}
+.hero figure img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero h1{margin:34px auto 0;font-size:clamp(2.6rem,7.4vw,7rem);letter-spacing:.22em;margin-right:-.22em;white-space:nowrap;line-height:1}
+.hero h1 span{color:var(--lime)}
+.hero .say{font-size:clamp(1.5rem,2.6vw,2.375rem);line-height:1.15;margin-top:14px;font-style:italic}
+.hero .row{display:flex;justify-content:center;align-items:center;gap:48px;margin-top:34px;font-size:var(--step-body);color:var(--soft)}
+
+/* shops */
+.shops{background:var(--road-2);padding:clamp(64px,10vh,120px) var(--m)}
+.shops .head{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:end;margin-bottom:40px}
+.shops .head p{font-size:var(--step-lead);line-height:1.3;color:var(--soft)}
+.pick{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.pick button{font-family:var(--text);font-size:var(--step-body);min-height:48px;padding:0 20px;background:var(--road);color:var(--white);border:0;cursor:pointer;transition:background .2s,color .2s}
+.pick button:hover,.pick button[aria-pressed="true"]{background:var(--lime);color:var(--ink)}
+.pick .near{background:var(--white);color:var(--ink)}
+.pick output{align-self:center;font-style:italic;color:var(--soft);padding-left:8px}
+.signs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:start}
+.sign{position:relative;margin-top:44px;transition:transform .35s cubic-bezier(.2,.7,.2,1),opacity .35s}
+.sign .tab{position:absolute;right:0;bottom:100%;background:var(--sign);border:5px solid var(--white);border-bottom:0;border-radius:12px 12px 0 0;padding:6px 16px 2px;font-family:var(--display);font-size:1.5rem;text-transform:uppercase}
+.sign .board{background:var(--sign);border:5px solid var(--white);border-radius:12px 0 12px 12px;padding:26px 24px 24px}
+.sign h3{font-size:clamp(3.5rem,6.6vw,6.5rem)}
+.sign .road{font-family:var(--display);font-size:1.75rem;text-transform:uppercase;color:var(--lime);margin-top:6px;line-height:1}
+.sign address{font-style:normal;margin-top:16px;min-height:3.2em}
+.sign .btn{width:100%;margin-top:18px}
+.sign .dir{display:inline-block;margin-top:14px;text-underline-offset:4px}
+.signs.chosen .sign:not(.on){opacity:.42}
+.signs.chosen .sign.on{transform:translateY(-14px)}
+.signs.chosen .sign.on .tab,.signs.chosen .sign.on .board{background:var(--sign-2)}
+
+/* services */
+.jobs{padding:clamp(64px,10vh,120px) 0 0}
+.jobs .head{display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:end;padding:0 var(--m);margin-bottom:48px}
+.jobs .head p{font-size:var(--step-lead);line-height:1.3;color:var(--soft)}
+.jobs ul{list-style:none}
+.jobs li{display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:center;min-height:76px;padding:12px var(--m)}
+.jobs li:nth-child(odd){background:var(--road-2)}
+.jobs li.first{background:var(--lime);color:var(--ink)}
+.jobs li strong{font-family:var(--display);font-weight:400;font-size:clamp(1.9rem,3.2vw,2.75rem);text-transform:uppercase;line-height:.95}
+.jobs li span{font-size:var(--step-lead);line-height:1.25}
+
+/* proof */
+.proof{background:var(--lime);color:var(--ink);height:clamp(640px,92vh,860px);overflow:hidden;padding:clamp(56px,9vh,96px) var(--m) 0;display:grid;grid-template-columns:4fr 7fr;gap:32px}
+.proof h2{align-self:start;font-size:clamp(3.5rem,9vw,9rem)}
+.proof .lede{font-size:var(--step-lead);line-height:1.3;margin-top:20px;max-width:26ch}
+.card{background:var(--paper);color:var(--ink);width:min(100%,640px);justify-self:center;aspect-ratio:5/7;transform:rotate(-1.6deg);padding:clamp(28px,4vw,56px);text-align:center}
+.card h3{font-size:2rem;letter-spacing:.04em}
+.card img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:50% 38%;margin:22px 0}
+.card p{font-size:clamp(1.15rem,1.6vw,1.375rem);line-height:1.6}
+.card p em{font-style:italic}
+
+/* about */
+.about{padding:clamp(72px,12vh,120px) var(--m)}
+.about h2{margin-bottom:36px}
+.about .story{columns:2;column-gap:40px;font-size:clamp(1.375rem,2.1vw,2rem);line-height:1.2;color:var(--soft)}
+.about .story b{font-weight:500;color:var(--white)}
+.about mark{background:var(--lime);color:var(--ink);padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.about mark.y{background:var(--yellow)}
+.about mark.g{background:var(--sign-2);color:var(--white)}
+.about .story a{display:inline;text-decoration:none}
+.about .strip{display:grid;grid-template-columns:7fr 5fr;gap:20px;margin-top:56px}
+.about .strip img{width:100%;height:100%;object-fit:cover;aspect-ratio:16/9}
+.about .strip img.sm{aspect-ratio:auto;height:auto;align-self:center}
+
+/* coupon */
+.write{background:var(--road-2);padding:clamp(72px,12vh,120px) var(--m)}
+.coupon{display:grid;grid-template-columns:46fr 54fr;background:var(--yellow);color:var(--ink);max-width:1100px;margin:0 auto;
+  -webkit-mask:radial-gradient(circle 14px at 46% 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 14px at 46% 100%,#0000 98%,#000) bottom/100% 51% no-repeat;
+  mask:radial-gradient(circle 14px at 46% 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 14px at 46% 100%,#0000 98%,#000) bottom/100% 51% no-repeat}
+.coupon .l{padding:48px;display:flex;flex-direction:column;justify-content:space-between;gap:32px}
+.coupon .l h2{font-size:clamp(2.5rem,4.4vw,4rem)}
+.coupon form{padding:48px;border-left:5px dotted var(--road-2);display:grid;gap:10px}
+.coupon input,.coupon textarea{width:100%;min-height:52px;padding:12px 16px;background:#ffe679;border:0;font:inherit;color:var(--ink)}
+.coupon textarea{min-height:96px;resize:vertical}
+.coupon ::placeholder{color:#4b4a2c;opacity:1}
+.coupon button{min-height:56px;background:var(--ink);color:var(--white);font-family:var(--display);font-size:1.75rem;text-transform:uppercase;border:0;cursor:pointer;transition:background .2s}
+.coupon button:hover{background:var(--sign)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* cta: the crew returns */
+.back{display:grid;grid-template-columns:8fr 4fr;gap:32px;min-height:90svh;overflow:hidden;align-items:center;padding-right:var(--m)}
+.back .ph{position:relative;align-self:stretch;min-height:520px;overflow:hidden}
+.back .ph img{position:absolute;inset:0;width:100%;height:130%;object-fit:cover;object-position:50% 78%;transition:opacity 1.6s}
+.back .ph img + img{opacity:0;object-position:50% 40%}
+.back .ph.swap img{opacity:0}
+.back .ph.swap img + img{opacity:1}
+.back h2{font-size:clamp(2.5rem,4.2vw,4rem)}
+.back p{margin-top:16px}
+.back .fact{font-family:var(--display);font-size:1.75rem;text-transform:uppercase;color:var(--lime);margin-top:18px;line-height:1}
+.back .btn{margin-top:22px}
+
+/* footer */
+footer{background:var(--white);color:var(--ink);overflow:hidden;padding:clamp(56px,9vh,96px) var(--m) 0}
+footer .up{display:grid;grid-template-columns:7fr 5fr;gap:32px}
+footer h2{font-size:clamp(3rem,7vw,6.5rem)}
+footer .btn{margin-top:26px;background:var(--ink);color:var(--white)}
+footer .btn:hover{background:var(--sign)}
+footer .links{list-style:none;justify-self:end;display:grid;gap:8px;align-content:start}
+footer .links a{text-underline-offset:4px}
+footer .legal{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:var(--step-small);margin-top:clamp(56px,10vh,110px)}
+footer .giant{font-family:var(--display);font-size:34vw;line-height:.8;white-space:nowrap;letter-spacing:-0.03em;transform:translateY(24%);margin-top:-2vw;color:var(--sign)}
+
+/* entrances */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.back .ph img{transition:none}}
+
+@media (max-width:860px){
+  .hero figure{width:min(70%,34svh)}
+  .hero h1{font-size:13.2vw;letter-spacing:.08em;margin-right:-.08em}
+  .hero .say{font-size:6vw}
+  .hero .row{flex-direction:column;gap:14px}
+  .hero .row .btn{width:100%;order:0}
+  .shops .head,.jobs .head,.proof,.about .strip,.coupon,.back,footer .up{grid-template-columns:1fr}
+  .signs{grid-template-columns:1fr;gap:8px}
+  .signs.chosen .sign.on{transform:none}
+  .sign h3{font-size:5rem}
+  .pick button{flex:1 1 auto}
+  .pick output{flex-basis:100%;padding:6px 0 0}
+  .jobs li{grid-template-columns:1fr;gap:4px;padding-top:16px;padding-bottom:16px}
+  .jobs li span{font-size:var(--step-body)}
+  .proof{height:auto;max-height:1040px;gap:36px}
+  .card{width:96%;transform:rotate(-1deg)}
+  .about .story{columns:1;font-size:1.25rem;line-height:1.25}
+  .coupon{-webkit-mask:none;mask:none}
+  .coupon .l,.coupon form{padding:28px 22px}
+  .coupon form{border-left:0;border-top:5px dotted var(--road-2)}
+  .back{padding:56px var(--m) 0;min-height:0}
+  .back .ph{order:2;min-height:55svh;margin:0 calc(var(--m) * -1)}
+  .back .btn,footer .btn{width:100%}
+  footer .links{justify-self:start}
+}
+</style>
+</head>
+<body>
+<p class="note">Preview made for Bigfoot Tires &amp; Repairs by José Chaves. Not the live site yet.</p>
+
+<header class="top">
+  <a class="name" href="#top">Bigfoot <b>Tires &amp; Repairs</b></a>
+  <a class="call" href="tel:+18063797161">806-379-7161</a>
+</header>
+
+<main id="top">
+<section class="hero">
+  <figure><img src="img/bench.jpg" width="1244" height="1400" alt="The shop dog sitting on the carved Bigfoot Tires &amp; Repairs bench, against the shop's lime green wall"></figure>
+  <h1>Big<span>foot</span></h1>
+  <p class="say">Truck down in West Texas? We come to you, any hour.</p>
+  <div class="row">
+    <span>24-hour roadside assistance</span>
+    <a class="btn" href="tel:+18063797161">Call 806-379-7161</a>
+    <span>Shops in Claude, Vega and Merkel</span>
+  </div>
+</section>
+
+<section class="shops" id="shops">
+  <div class="head">
+    <h2 class="rv">Which shop is closest?</h2>
+    <p class="rv">Three shops across West Texas. Tell us where you are stopped and call the one nearest to you.</p>
+  </div>
+  <div class="pick" role="group" aria-label="Where are you stopped?">
+    <button type="button" data-shop="vega" aria-pressed="false">On I-40, west of Amarillo</button>
+    <button type="button" data-shop="claude" aria-pressed="false">Around Claude</button>
+    <button type="button" data-shop="merkel" aria-pressed="false">On I-20, near Abilene</button>
+    <button type="button" class="near" id="near">Find the closest to me</button>
+    <output id="nearout" aria-live="polite"></output>
+  </div>
+  <div class="signs" id="signs">
+    <article class="sign rv" id="vega" data-lat="35.2428" data-lon="-102.4285">
+      <span class="tab">Exit 36</span>
+      <div class="board">
+        <h3>Vega</h3>
+        <p class="road">Interstate 40</p>
+        <address>3650 I-40 Service Rd<br>Vega, TX 79092</address>
+        <a class="btn" href="tel:+18063416575">806-341-6575</a>
+        <a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=3650+I-40+Service+Rd+Vega+TX+79092">Directions to Vega</a>
+      </div>
+    </article>
+    <article class="sign rv" id="claude" data-lat="35.1117" data-lon="-101.3632">
+      <span class="tab">New shop</span>
+      <div class="board">
+        <h3>Claude</h3>
+        <p class="road">County Road 3</p>
+        <address>6000 County Rd 3<br>Claude, TX 79019</address>
+        <a class="btn" href="tel:+18063797161">806-379-7161</a>
+        <a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=6000+County+Rd+3+Claude+TX+79019">Directions to Claude</a>
+      </div>
+    </article>
+    <article class="sign rv" id="merkel" data-lat="32.4560" data-lon="-99.8690">
+      <span class="tab">FM 707</span>
+      <div class="board">
+        <h3>Merkel</h3>
+        <p class="road">Interstate 20</p>
+        <address>103 FM 707<br>Merkel, TX 79536</address>
+        <a class="btn" href="tel:+18063416575">806-341-6575</a>
+        <a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=103+FM+707+Merkel+TX+79536">Directions to Merkel</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="jobs" id="work">
+  <div class="head">
+    <h2 class="rv">What we fix</h2>
+    <p class="rv">Tractors, trailers and the tires under them, in the shop or out where the truck stopped.</p>
+  </div>
+  <ul>
+    <li class="first"><strong>24-hour roadside assistance</strong><span>Call at any hour. We come out to the truck.</span></li>
+    <li><strong>Truck &amp; trailer repairs</strong><span>Repairs and regular service for the tractor and the trailer.</span></li>
+    <li><strong>Diesel repair</strong><span>Engine trouble found and put right.</span></li>
+    <li><strong>Computer diagnostics</strong><span>We read the codes before anyone picks up a wrench.</span></li>
+    <li><strong>New &amp; used tires</strong><span>Truck, trailer and auto tires, in stock.</span></li>
+    <li><strong>Tire repairs</strong><span>All makes and models.</span></li>
+    <li><strong>Trailer washouts</strong><span>A clean trailer before the next load.</span></li>
+    <li><strong>Load transfers</strong><span>When the truck can't go on, the load still can.</span></li>
+    <li><strong>Towing</strong><span>Available when the repair has to happen at the shop.</span></li>
+  </ul>
+</section>
+
+<section class="proof" id="proof">
+  <div>
+    <h2 class="rv">Four years in</h2>
+    <p class="lede rv">Named a best truck repair shop in Amarillo, and still answering the phone at 3 a.m.</p>
+  </div>
+  <div class="card rv">
+    <h3>On the record</h3>
+    <img src="img/team.jpg" width="1387" height="1500" loading="lazy" alt="The Bigfoot Tires &amp; Repairs crew in black shop shirts outside the shop">
+    <p>Best of BusinessRate 2025&nbsp;· Truck Repair Shop&nbsp;· Amarillo, Texas<br>
+    <em>Four years of dedicated service</em><br>
+    100% satisfaction guaranteed<br>
+    Roadside assistance, 24&nbsp;hours<br>
+    Claude&nbsp;· Vega&nbsp;· Merkel</p>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2 class="rv">Follow the green footprint</h2>
+  <div class="story rv">
+    <p><b>Bigfoot Tires &amp; Repairs</b> has kept trucks moving across the Texas Panhandle for <mark>four years</mark>. What started as one shop on <mark class="g">East Amarillo Boulevard</mark> is now three, in <mark>Claude, Vega and Merkel</mark>, with Vega and Merkel right off the interstate, because that is where trucks break down. The crew wears a <mark class="g">green footprint</mark> on the back of the shirt, so you know who is walking up to your rig. We repair tractors, trailers and <mark>diesel engines</mark>, sell new and used tires, wash out trailers and move the load when a truck can't go on. The phone is answered <mark class="y">day and night</mark>. <a href="tel:+18063797161"><mark class="y">Call 806-379-7161.</mark></a></p>
+  </div>
+  <div class="strip">
+    <img class="rv" src="img/shop-gathering.jpg" width="1400" height="1050" loading="lazy" alt="Bigfoot crew and guests gathered inside the shop">
+    <img class="rv sm" src="img/new-location-banner.jpg" width="638" height="243" loading="lazy" alt="Bigfoot Tires &amp; Repairs banner announcing the new location at 6000 County Rd 3, Claude, TX 79019">
+  </div>
+</section>
+
+<section class="write" id="write">
+  <div class="coupon rv">
+    <div class="l">
+      <h2>Not urgent? Write&nbsp;to&nbsp;us</h2>
+      <p>For a quote, a tire price or a service booking. If the truck is stopped right now, call instead.</p>
+    </div>
+    <form action="mailto:bigfoot79107@gmail.com" method="post" enctype="text/plain">
+      <label class="sr" for="n">Your name</label><input id="n" name="Name" placeholder="Your name" required>
+      <label class="sr" for="p">Phone</label><input id="p" name="Phone" type="tel" placeholder="Phone" required>
+      <label class="sr" for="w">Where is the truck?</label><input id="w" name="Where" placeholder="Where is the truck?">
+      <label class="sr" for="j">What do you need?</label><textarea id="j" name="Job" placeholder="What do you need?"></textarea>
+      <button type="submit">Send it</button>
+    </form>
+  </div>
+</section>
+
+<section class="back">
+  <div class="ph" id="swap">
+    <img src="img/crew-walking.jpg" width="1221" height="1400" loading="lazy" alt="Bigfoot crew walking down a gravel road, green footprints on the backs of their shirts">
+    <img src="img/team.jpg" width="1387" height="1500" loading="lazy" alt="" aria-hidden="true">
+  </div>
+  <div class="rv">
+    <h2>Help is on the way</h2>
+    <p>One call and the crew heads out to you.</p>
+    <p class="fact">Answered 24 hours</p>
+    <a class="btn" href="tel:+18063797161">806-379-7161</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="up">
+    <div>
+      <h2>Broke down? Call Bigfoot.</h2>
+      <a class="btn" href="tel:+18063797161">Call 806-379-7161</a>
+    </div>
+    <ul class="links">
+      <li><a href="tel:+18063797161">Claude: 806-379-7161</a></li>
+      <li><a href="tel:+18063416575">Vega and Merkel: 806-341-6575</a></li>
+      <li><a href="mailto:bigfoot79107@gmail.com">bigfoot79107@gmail.com</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100086152035057">Facebook</a></li>
+    </ul>
+  </div>
+  <div class="legal">
+    <span>Bigfoot Tires &amp; Repairs Inc. Open 24 hours.</span>
+    <span>Photographs: Bigfoot Tires &amp; Repairs. Preview by José Chaves.</span>
+  </div>
+  <div class="giant" aria-hidden="true">BIGFOOT</div>
+</footer>
+
+<script>
+(function(){
+  var signs=document.getElementById('signs'), btns=[].slice.call(document.querySelectorAll('.pick [data-shop]')), out=document.getElementById('nearout');
+  function choose(id,scroll){
+    signs.classList.add('chosen');
+    [].forEach.call(signs.children,function(s){s.classList.toggle('on',s.id===id)});
+    btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.shop===id))});
+    if(scroll&&window.innerWidth<=860)document.getElementById(id).scrollIntoView({behavior:'smooth',block:'center'});
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){out.textContent='';choose(b.dataset.shop,true)})});
+  document.getElementById('near').addEventListener('click',function(){
+    if(!navigator.geolocation){out.textContent='Location is not available on this phone. Pick a road instead.';return}
+    out.textContent='Finding you…';
+    navigator.geolocation.getCurrentPosition(function(p){
+      var best=null,bd=1e9,R=3959,r=Math.PI/180;
+      [].forEach.call(signs.children,function(s){
+        var a=p.coords.latitude*r,b=s.dataset.lat*r,dl=(s.dataset.lon-p.coords.longitude)*r;
+        var d=Math.acos(Math.min(1,Math.sin(a)*Math.sin(b)+Math.cos(a)*Math.cos(b)*Math.cos(dl)))*R;
+        if(d<bd){bd=d;best=s}
+      });
+      out.textContent='Closest shop: '+best.querySelector('h3').textContent+', about '+Math.round(bd)+' miles in a straight line.';
+      choose(best.id,true);
+    },function(){out.textContent='Could not get your location. Pick a road instead.'},{timeout:8000});
+  });
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  var sw=document.getElementById('swap');
+  if(!matchMedia('(prefers-reduced-motion:reduce)').matches)setInterval(function(){if(!document.hidden)sw.classList.toggle('swap')},6000);
+})();
+</script>
+</body>
+</html>
