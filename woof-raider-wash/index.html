@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Woof Raider Wash | Self-service dog wash in Lubbock (preview)</title>
+<meta name="description" content="Preview page made for Woof Raider Wash: a family-friendly self-service dog wash opening in early 2027 at 10101 Slide Road, Suite 650, Lubbock, Texas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3f3f1; --surface:#e4e5e2; --paper:#fff; --ink:#15171a; --muted:#33373c;
+  --red:#cc0000; --red-2:#a30000; --night:#24272c; --night-2:#1a1c20; --sky:#7ec4e8; --white:#fff;
+  --m:clamp(16px,4vw,56px);
+  --step-small:clamp(0.8125rem,0.79rem + 0.1vw,0.875rem);
+  --step-body:clamp(1.0625rem,1rem + 0.25vw,1.1875rem);
+  --step-lead:clamp(1.25rem,1.1rem + 0.7vw,1.625rem);
+  --step-head:clamp(2.25rem,1.3rem + 3.8vw,4.5rem);
+  --f:"Outfit","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:var(--step-body);line-height:1.5;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-underline-offset:4px}
+h1,h2,h3{font-weight:800;letter-spacing:-0.035em;line-height:.95}
+h2{font-size:var(--step-head)}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+::selection{background:var(--red);color:#fff}
+.note{background:var(--night);color:var(--white);font-size:var(--step-small);text-align:center;padding:8px var(--m)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 26px;border-radius:999px;background:var(--red);color:var(--white);font-weight:800;font-family:inherit;font-size:var(--step-body);text-decoration:none;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{background:var(--red-2);transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn.w{background:var(--paper);color:var(--ink)}
+.btn.w:hover{background:var(--surface)}
+
+.top{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px var(--m)}
+.top .wm{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.25rem;text-decoration:none;letter-spacing:-0.02em}
+.top .wm img{width:52px;height:52px;border-radius:50%}
+.top ul{display:flex;gap:28px;list-style:none;align-items:center;font-weight:500}
+.top .btn{min-height:48px;padding:0 20px}
+
+/* hero */
+.hero{display:grid;grid-template-columns:6fr 6fr;gap:clamp(24px,4vw,56px);padding:clamp(16px,3vh,40px) var(--m) clamp(64px,10vh,110px);align-items:center}
+.hero .when{display:inline-block;background:var(--red);color:var(--white);font-weight:800;font-size:var(--step-lead);padding:6px 16px;border-radius:999px}
+.hero h1{font-size:clamp(3.25rem,7.6vw,7.25rem);margin-top:22px}
+.hero .say{font-size:var(--step-lead);line-height:1.3;max-width:32ch;margin-top:20px}
+.hero .go{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.hero .where{margin-top:18px;font-weight:500}
+.hero img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:28px}
+
+/* the mess */
+.mess{background:var(--night);color:var(--white);padding:clamp(88px,15vh,170px) var(--m);display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,5vw,72px);align-items:start}
+.mess .lede{color:var(--white);font-size:var(--step-lead);line-height:1.3;margin-top:20px;max-width:30ch}
+.chores{list-style:none;display:grid;gap:10px}
+.chores label{display:flex;align-items:center;gap:16px;background:var(--night-2);padding:18px 20px;border-radius:18px;cursor:pointer;font-size:var(--step-lead);line-height:1.2;transition:background .2s,transform .2s}
+.chores label:hover{transform:translateX(4px)}
+.chores input{position:absolute;opacity:0;width:1px;height:1px}
+.chores .box{flex:none;width:30px;height:30px;border-radius:50%;background:#3a3e45;display:grid;place-items:center;transition:background .2s}
+.chores .box::after{content:"";width:12px;height:7px;border-left:3px solid #fff;border-bottom:3px solid #fff;transform:rotate(-45deg) translate(1px,-1px);opacity:0;transition:opacity .2s}
+.chores input:checked + label{background:#33363c}
+.chores input:checked + label .box{background:var(--red)}
+.chores input:checked + label .box::after{opacity:1}
+.chores input:focus-visible + label{outline:3px solid var(--sky);outline-offset:3px}
+.verdict{margin-top:20px;background:var(--red);border-radius:22px;padding:26px}
+.verdict b{display:block;font-size:clamp(1.5rem,2.4vw,2.25rem);line-height:1.05;letter-spacing:-0.03em}
+.verdict span{display:block;margin-top:10px;line-height:1.35}
+
+/* story */
+.story{padding:clamp(88px,15vh,170px) 0}
+.story .hd{display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:end;padding:0 var(--m)}
+.story .hd p{font-size:var(--step-lead);line-height:1.3;max-width:34ch}
+.reel figure:nth-child(3n+2){transition-delay:.08s}.reel figure:nth-child(3n){transition-delay:.16s}
+.reel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:40px var(--m) 0}
+.reel figure{min-width:0}
+.reel img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:22px}
+.reel figcaption{margin-top:10px;font-weight:500}
+
+/* visit */
+.visit{background:var(--surface);padding:clamp(88px,15vh,170px) var(--m);display:grid;grid-template-columns:7fr 5fr;gap:clamp(32px,5vw,72px);align-items:end}
+.visit address{font-style:normal;font-weight:800;font-size:clamp(1.5rem,3.6vw,3.25rem);line-height:.98;letter-spacing:-0.04em;margin-top:24px}
+.visit .r{display:grid;gap:10px}
+.visit .r .btn{width:100%}
+.visit .r p{font-size:var(--step-lead);line-height:1.3;margin-bottom:10px}
+
+footer{background:var(--red);color:var(--white);overflow:hidden;padding:clamp(56px,9vh,96px) var(--m) 0}
+footer .up{display:grid;grid-template-columns:7fr 5fr;gap:32px}
+footer h2{max-width:11ch}
+footer .btn{margin-top:26px}
+footer ul{list-style:none;justify-self:end;display:grid;gap:10px;align-content:start;font-weight:500}
+footer .legal{font-size:1rem;margin-top:clamp(48px,8vh,96px)}
+footer .giant{font-weight:800;font-size:40vw;line-height:.74;letter-spacing:-0.07em;white-space:nowrap;transform:translateY(18%);margin-top:1vw;color:var(--white)}
+
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .rv.on{opacity:1;transform:none}
+.js .rv.d1{transition-delay:.08s}.js .rv.d2{transition-delay:.16s}
+.hero img{animation:pop .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pop{from{transform:scale(.94);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.hero img{animation:none}}
+
+@media (max-width:860px){
+  .top ul li:not(:last-child){display:none}
+  .top .wm span{display:none}
+  .hero,.mess,.story .hd,.visit,footer .up{grid-template-columns:1fr}
+  .hero h1{font-size:15.4vw}
+  .hero .go .btn{flex:1 1 100%}
+  .visit address{font-size:6.6vw}
+  .reel{grid-template-columns:1fr 1fr;gap:10px}
+  footer ul{justify-self:start}
+  footer .btn{width:100%}
+}
+</style>
+</head>
+<body>
+<p class="note">Preview made for Woof Raider Wash by José Chaves. Not the live site yet.</p>
+
+<header class="top">
+  <a class="wm" href="#top"><img src="img/logo.jpg" width="600" height="600" alt=""><span>Woof Raider Wash</span></a>
+  <ul>
+    <li><a href="#mess">Why</a></li>
+    <li><a href="#story">Our story</a></li>
+    <li><a href="#visit">Where</a></li>
+    <li><a class="btn" href="tel:+18067827826">806-782-7826</a></li>
+  </ul>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div>
+    <p class="when">Opening early 2027</p>
+    <h1>Woof Raider Wash</h1>
+    <p class="say">Lubbock's family-friendly self-service dog wash. Wash your pup, enjoy the experience, and leave the mess with us.</p>
+    <div class="go">
+      <a class="btn" href="mailto:hello@woofraiderwash.com?subject=Tell%20me%20when%20you%20open&amp;body=My%20dog's%20name%3A%20%0AMy%20name%3A%20">Tell me when you open</a>
+      <a class="btn w" href="tel:+18067827826">Call 806-782-7826</a>
+    </div>
+    <p class="where">10101 Slide Road, Suite 650, Lubbock</p>
+  </div>
+  <img src="img/soon.jpg" width="1100" height="1100" alt="Woof Raider Wash coming soon poster: a golden retriever peeking over a tub, family-friendly self-service dog wash, 10101 Slide Rd Suite 650, Lubbock">
+</section>
+
+<section class="mess" id="mess">
+  <div>
+    <h2 class="rv">Bath time at home</h2>
+    <p class="lede rv d1">What started as bath time turned into an all-day project. Tick what bath day looks like at your house.</p>
+  </div>
+  <div class="rv d1">
+    <ul class="chores">
+      <li><input type="checkbox" id="c1" checked><label for="c1"><span class="box"></span>Towels everywhere</label></li>
+      <li><input type="checkbox" id="c2"><label for="c2"><span class="box"></span>A hair dryer that isn't cutting it</label></li>
+      <li><input type="checkbox" id="c3"><label for="c3"><span class="box"></span>A bathroom that needs cleaning after</label></li>
+      <li><input type="checkbox" id="c4"><label for="c4"><span class="box"></span>Wet-dog smell in the house</label></li>
+      <li><input type="checkbox" id="c5"><label for="c5"><span class="box"></span>More than one dog to wash</label></li>
+    </ul>
+    <div class="verdict" aria-live="polite"><p><b id="vb">1 thing you can leave with us</b></p><p><span id="vs">Bring your pup to Slide Road, wash in our bay, and go home to a dry floor.</span></p></div>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="hd">
+    <h2 class="rv">Meet the family behind it</h2>
+    <p class="rv d1">A U-Haul, three dogs and a two-year contract in 2018. Eight years later, a business on Slide Road.</p>
+  </div>
+  <div class="reel">
+    <figure class="rv"><img src="img/story1.jpg" width="864" height="1080" loading="lazy" alt="Three small dogs in the back seat of a car, and the couple at the beach. Text: in September 2018 we moved to Lubbock"><figcaption>September 2018, a loaded U-Haul</figcaption></figure>
+    <figure class="rv"><img src="img/story2.jpg" width="864" height="1080" loading="lazy" alt="Family photos: a son born June 2019 and a daughter in April 2021, at a Texas Tech parade"><figcaption>Two kids, three dogs, Red Raider spirit</figcaption></figure>
+    <figure class="rv"><img src="img/story3.jpg" width="864" height="1080" loading="lazy" alt="The family at a Texas Tech game and their small red dog. Text: why isn't there an easier way for families to wash their dogs?"><figcaption>Why isn't there an easier way?</figcaption></figure>
+    <figure class="rv"><img src="img/story4.jpg" width="864" height="1080" loading="lazy" alt="The family on a game-day bus and in the stands. Text: Lubbock gave us a place to build our family"><figcaption>Lubbock gave us a place to build our family</figcaption></figure>
+    <figure class="rv"><img src="img/story5.jpg" width="864" height="1080" loading="lazy" alt="Family photos. Text: we are so excited to welcome you and your four-legged family members in early 2027"><figcaption>See you in early 2027</figcaption></figure>
+    <figure class="rv"><img src="img/story6.jpg" width="864" height="1080" loading="lazy" alt="The family with the Texas Tech mascot. Text: meet the family behind Woof Raider Wash"><figcaption>The family behind Woof Raider Wash</figcaption></figure>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div>
+    <h2 class="rv">Where to find us</h2>
+    <address class="rv d1">10101 Slide Rd, Suite 650</address>
+  </div>
+  <div class="r rv d1">
+    <p>Opening early 2027. Get on the list and we will tell you the day the doors open.</p>
+    <a class="btn" href="mailto:hello@woofraiderwash.com?subject=Tell%20me%20when%20you%20open&amp;body=My%20dog's%20name%3A%20%0AMy%20name%3A%20">Tell me when you open</a>
+    <a class="btn w" href="https://www.google.com/maps/search/?api=1&amp;query=10101+Slide+Rd+Suite+650+Lubbock+TX+79424">Directions</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="up">
+    <div>
+      <h2>Leave the mess with us</h2>
+      <a class="btn w" href="tel:+18067827826">Call 806-782-7826</a>
+    </div>
+    <ul>
+      <li><a href="mailto:hello@woofraiderwash.com">hello@woofraiderwash.com</a></li>
+      <li><a href="#story">Our story</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61594546395976">Facebook</a></li>
+    </ul>
+  </div>
+  <p class="legal">Woof Raider Wash LLC, a member of the Lubbock Chamber of Commerce. Pictures: Woof Raider Wash. Preview by José Chaves.</p>
+  <div class="giant" aria-hidden="true">WOOF</div>
+</footer>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var boxes=[].slice.call(document.querySelectorAll('.chores input')),vb=document.getElementById('vb'),vs=document.getElementById('vs');
+  function draw(){
+    var n=boxes.filter(function(b){return b.checked}).length;
+    vb.textContent=n===0?'Lucky you':(n+(n===1?' thing':' things')+' you can leave with us');
+    vs.textContent=n===0?'Bath day sounds easy at your house. Come and try ours anyway.':(n>=4?'That is most of bath day. Bring your pup to Slide Road and go home to a dry floor.':'Bring your pup to Slide Road, wash in our bay, and go home to a dry floor.');
+  }
+  boxes.forEach(function(b){b.addEventListener('change',draw)});draw();
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.1});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+})();
+</script>
+</body>
+</html>
