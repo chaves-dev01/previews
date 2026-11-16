@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Optical Source | Eyeglasses in Clovis and Portales, NM (preview)</title>
+<meta name="description" content="Preview page made for Optical Source: eyeglasses in Clovis and Portales, New Mexico since 1992. Frame and lens packages from $49, any prescription accepted, on-site optical lab.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#e6eae8; --surface:#d8dfdc; --paper:#f4f6f3; --ink:#10201f; --muted:#42524f;
+  --accent:#0a6a73; --accent-2:#085860; --accent-ink:#ffffff; --night:#0c1a1a;
+  --m:clamp(16px,4vw,56px);
+  --step-small:clamp(0.8125rem,0.79rem + 0.1vw,0.875rem);
+  --step-body:clamp(1.0625rem,1rem + 0.25vw,1.1875rem);
+  --step-lead:clamp(1.25rem,1.1rem + 0.7vw,1.625rem);
+  --step-head:clamp(2rem,1.3rem + 3.2vw,4rem);
+  --display:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --text:"Source Serif 4",Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--text);font-size:var(--step-body);line-height:1.55;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-underline-offset:4px}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:-0.035em;line-height:.95}
+h2{font-size:var(--step-head)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+::selection{background:var(--accent);color:#fff}
+.note{background:var(--ink);color:var(--paper);font-size:var(--step-small);text-align:center;padding:8px var(--m)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 28px;background:var(--accent);color:var(--accent-ink);font-family:var(--display);font-weight:700;font-size:var(--step-body);letter-spacing:-0.01em;text-decoration:none;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{background:var(--accent-2);transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* hero: the prescription slip over the town at dusk */
+.hero{position:relative;min-height:100svh;display:grid;place-items:center;padding:clamp(24px,6vh,64px) var(--m);overflow:hidden;background:var(--night)}
+.hero .bg{position:absolute;inset:-4%;width:108%;max-width:none;height:108%;object-fit:cover;filter:brightness(.62);animation:drift 26s ease-in-out infinite alternate}
+@keyframes drift{from{transform:scale(1) translateX(-1%)}to{transform:scale(1.06) translateX(1%)}}
+.slip{position:relative;min-width:0;width:min(100%,820px);min-height:min(62svh,560px);background:var(--paper);padding:32px;display:flex;flex-direction:column;justify-content:space-between;gap:32px}
+.slip h1{display:flex;justify-content:space-between;gap:16px;font-size:clamp(2.5rem,5.2vw,4.75rem);text-transform:uppercase;line-height:.9}
+.slip .facts{font-family:var(--display);font-weight:700;font-size:clamp(1.5rem,2.5vw,2.25rem);letter-spacing:-0.03em;line-height:1.08}
+.slip .facts span{display:block}
+.slip .say{font-size:var(--step-lead);line-height:1.3;max-width:34ch;margin-top:18px}
+.slip .foot{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;font-size:var(--step-small)}
+.slip .foot a:last-child{justify-self:end;font-size:var(--step-body)}
+
+/* showcase: pick a package */
+.pick{display:grid;grid-template-columns:1fr 1fr;min-height:88svh}
+.pick .plate{background:var(--accent);display:grid;place-items:center;padding:40px}
+.pick .plate img{width:min(100%,440px);aspect-ratio:2/3;object-fit:cover}
+.pick .side{padding:clamp(40px,7vh,88px) var(--m);display:flex;flex-direction:column;justify-content:space-between;gap:36px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px 28px}
+.tabs button{font:inherit;font-size:var(--step-body);background:none;border:0;padding:10px 0;color:var(--muted);cursor:pointer;transition:color .2s}
+.tabs button[aria-selected="true"]{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:8px;text-decoration-color:var(--accent)}
+.tabs button:hover{color:var(--ink)}
+.pick .price{font-family:var(--display);font-weight:700;font-size:clamp(4.5rem,11vw,10rem);letter-spacing:-0.05em;line-height:.85;transition:opacity .25s,transform .25s}
+.pick .price.out{opacity:0;transform:translateY(12px)}
+.pick h3{font-size:clamp(1.75rem,2.6vw,2.5rem);margin-top:20px}
+.pick .desc{max-width:34ch;margin-top:20px}
+.cells{display:grid;grid-template-columns:1fr 1fr}
+.cells a{display:flex;align-items:center;justify-content:center;min-height:72px;padding:0 16px;font-family:var(--display);font-weight:700;text-decoration:none;text-align:center;transition:background .2s}
+.cells a:first-child{background:var(--ink);color:var(--paper)}
+.cells a:first-child:hover{background:var(--accent)}
+.cells a:last-child{background:var(--surface)}
+.cells a:last-child:hover{background:#c8d2ce}
+
+/* the price list as a printed sheet */
+.list{background:var(--ink);padding:clamp(80px,14vh,160px) var(--m);display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,5vw,80px);align-items:start}
+.list .lead{color:var(--paper);position:sticky;top:48px}
+.list .lead p{font-size:var(--step-lead);line-height:1.3;margin-top:24px;max-width:26ch}
+.list .lead img{width:min(100%,360px);margin-top:36px}
+.sheet{background:var(--paper);width:min(100%,600px);justify-self:center;padding:56px 44px 60px;
+  /* taste-skill-ignore: cut edge, not a fill */
+  -webkit-mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/20px 51% repeat-x,conic-gradient(from 135deg at top,#0000,#000 1deg 89deg,#0000 90deg) top/20px 51% repeat-x; /* taste-skill-ignore */
+  mask:conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/20px 51% repeat-x,conic-gradient(from 135deg at top,#0000,#000 1deg 89deg,#0000 90deg) top/20px 51% repeat-x} /* taste-skill-ignore */
+.sheet h3{font-size:1.25rem;letter-spacing:-0.02em;margin:44px 0 18px}
+.sheet h3:first-child{margin-top:0}
+.sheet dl{display:grid;gap:18px}
+.sheet .row{display:flex;align-items:baseline;gap:10px}
+.sheet dt{font-weight:600}
+.sheet .dots{flex:1;border-bottom:4px dotted var(--surface);transform:translateY(-4px);min-width:24px}
+.sheet dd{font-family:var(--display);font-weight:700;white-space:nowrap}
+.sheet .sub{font-size:.9375rem;color:var(--muted);max-width:34ch;line-height:1.4}
+
+/* one letter */
+.letter{padding:clamp(96px,16vh,160px) var(--m);display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,5vw,80px)}
+.letter .col{max-width:40ch}
+.letter .open{font-size:clamp(1.375rem,2vw,1.75rem);font-weight:600;line-height:1.25}
+.letter p + p{margin-top:20px}
+.letter .sign{margin-top:40px;font-size:1rem}
+
+/* two stores */
+.stores{background:var(--surface);padding:clamp(80px,14vh,160px) var(--m)}
+.stores h2{max-width:14ch}
+.stores .pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:48px}
+.store{background:var(--paper);display:grid;grid-template-rows:auto 1fr}
+.store img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.store .in{padding:28px;display:flex;flex-direction:column;gap:14px}
+.store h3{font-size:clamp(2.5rem,5vw,4.5rem);text-transform:uppercase}
+.store address{font-style:normal;font-size:var(--step-lead);line-height:1.25}
+.store .cap{font-size:var(--step-small);color:var(--muted)}
+.store .btn{margin-top:auto;align-self:start}
+.store .dir{align-self:start}
+
+/* coupon */
+.write{padding:clamp(96px,16vh,160px) var(--m)}
+.coupon{display:grid;grid-template-columns:46fr 54fr;background:var(--accent);color:#fff;max-width:1100px;margin:0 auto;
+  -webkit-mask:radial-gradient(circle 14px at 46% 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 14px at 46% 100%,#0000 98%,#000) bottom/100% 51% no-repeat; /* taste-skill-ignore */
+  mask:radial-gradient(circle 14px at 46% 0,#0000 98%,#000) top/100% 51% no-repeat,radial-gradient(circle 14px at 46% 100%,#0000 98%,#000) bottom/100% 51% no-repeat} /* taste-skill-ignore */
+.coupon .l{padding:48px;display:flex;flex-direction:column;justify-content:space-between;gap:32px}
+.coupon .l h2{font-size:clamp(1.75rem,3vw,2.75rem);text-transform:uppercase}
+.coupon form{padding:48px;border-left:5px dotted var(--bg);display:grid;gap:10px}
+.coupon input,.coupon select,.coupon textarea{width:100%;min-height:52px;padding:12px 16px;background:#cfe3e3;border:0;border-radius:0;font:inherit;color:var(--ink)}
+.coupon textarea{min-height:96px;resize:vertical}
+.coupon ::placeholder{color:#2c4a4a;opacity:1}
+.coupon button{min-height:56px;background:var(--ink);color:#fff;font-family:var(--display);font-weight:700;font-size:var(--step-body);border:0;cursor:pointer;transition:background .2s}
+.coupon button:hover{background:#000}
+
+/* footer */
+footer{background:var(--night);color:var(--paper);overflow:hidden;padding:clamp(64px,10vh,110px) var(--m) 0}
+footer .up{display:grid;grid-template-columns:7fr 5fr;gap:32px}
+footer h2{font-size:clamp(2.25rem,5vw,4.5rem);max-width:12ch}
+footer .rest{font-size:var(--step-lead);margin-top:16px}
+footer .btn{margin-top:28px}
+footer .links{list-style:none;justify-self:end;display:grid;gap:10px;align-content:start}
+footer .legal{display:flex;justify-content:space-between;gap:16px 32px;flex-wrap:wrap;font-size:var(--step-small);margin-top:clamp(56px,10vh,110px)}
+footer .legal a{color:inherit}
+footer .giant{font-family:var(--display);font-weight:700;font-size:28vw;line-height:.8;letter-spacing:-0.06em;white-space:nowrap;text-transform:uppercase;transform:translateY(26%);margin-top:1vw;color:var(--accent)}
+
+/* entrances */
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+.js .rv.d1{transition-delay:.08s}.js .rv.d2{transition-delay:.16s}.js .rv.d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.hero .bg{animation:none}}
+
+@media (max-width:860px){
+  .slip{min-height:70svh;padding:22px}
+  .slip h1{display:block;font-size:17vw}
+  .slip h1 span{display:block}
+  .slip .facts{font-size:1.5rem}
+  .slip .say{font-size:1.125rem}
+  .slip .foot{grid-template-columns:1fr;gap:12px}
+  .slip .foot .btn{order:-1;width:100%}
+  .slip .foot a:last-child{justify-self:start}
+  .pick,.list,.letter,.stores .pair,.coupon,footer .up{grid-template-columns:1fr}
+  .pick{min-height:0}
+  .pick .plate{padding:16px}
+  .pick .plate img{width:100%;aspect-ratio:2/3}
+  .tabs{gap:4px 22px}
+  .cells{grid-template-columns:1fr}
+  .cells a{min-height:60px}
+  .list .lead{position:static}
+  .list .lead p{max-width:none}
+  .list .lead img{width:100%}
+  .sheet{padding:48px 20px 52px}
+  .coupon{-webkit-mask:none;mask:none}
+  .coupon .l,.coupon form{padding:28px 20px}
+  .coupon form{border-left:0;border-top:5px dotted var(--bg)}
+  .store .btn,footer .btn{width:100%;align-self:stretch}
+  footer .links{justify-self:start}
+  footer .giant{font-size:34vw}
+}
+</style>
+</head>
+<body>
+<p class="note">Preview made for Optical Source by José Chaves. Not the live site yet.</p>
+
+<main>
+<section class="hero" id="top">
+  <img class="bg" src="assets/downtown-clovis-evening-sky.jpg" width="1920" height="1098" alt="Main Street in downtown Clovis, New Mexico, under an evening sky">
+  <div class="slip">
+    <h1><span>Optical </span><span>Source</span></h1>
+    <div>
+      <p class="facts"><span>Eyeglasses in Clovis and Portales.</span><span>Frame and lenses from $49.</span></p>
+      <p class="say">You don't have to buy your glasses where you had your eye exam. Bring the prescription and we do the rest.</p>
+    </div>
+    <div class="foot">
+      <span>Since 1992. Open 6 days a week, through lunch.</span>
+      <a class="btn" href="tel:+15757697766">Call 575-769-7766</a>
+      <a href="#stores">Find a store</a>
+    </div>
+  </div>
+</section>
+
+<section class="pick" id="packages">
+  <div class="plate"><img class="rv" src="img/packages.jpg" width="640" height="960" loading="lazy" alt="Optical Source's own poster: $49 or 2 for $69, frame and lenses included, over 300 styles in the package selection"></div>
+  <div class="side">
+    <div>
+      <h2 class="rv">Pick your package</h2>
+      <div class="tabs rv d1" role="tablist" aria-label="Frame and lens packages">
+        <button role="tab" aria-selected="true" data-k="one">One pair</button>
+        <button role="tab" aria-selected="false" data-k="two">Two pairs</button>
+        <button role="tab" aria-selected="false" data-k="pro">No-line progressive</button>
+      </div>
+    </div>
+    <div class="rv d2" aria-live="polite">
+      <p class="price" id="price">$49</p>
+      <h3 id="ptitle">One pair, frame and lenses</h3>
+      <p class="desc" id="pdesc">Choose from over 300 styles in the package selection. Hand us your prescription and we make the glasses.</p>
+    </div>
+    <div class="cells rv d3">
+      <a href="tel:+15757697766">Call to order</a>
+      <a id="pmail" href="mailto:opticalsource01@gmail.com?subject=One%20pair%20package%20(%2449)&amp;body=Hello%2C%20I%20would%20like%20the%20one%20pair%20package.%20My%20name%20and%20phone%20number%3A%20">Email your prescription</a>
+    </div>
+  </div>
+</section>
+
+<section class="list" id="list">
+  <div class="lead">
+    <h2 class="rv">Service, selection, value</h2>
+    <p class="rv d1">The names you know, made up in our own lab, at prices to accommodate your needs.</p>
+    <img class="rv d2" src="img/priority.jpg" width="1284" height="1191" loading="lazy" alt="Optical Source advertisement: Your vision, our priority. Oakley, Ray-Ban, Coach, Versace, Gucci, Nike, Silhouette, Persol, Guess and Pair Eyewear">
+  </div>
+  <div class="sheet rv">
+    <h3>Frame and lens packages</h3>
+    <dl>
+      <div><div class="row"><dt>One pair</dt><span class="dots"></span><dd>$49</dd></div><p class="sub">Frame and lenses included.</p></div>
+      <div><div class="row"><dt>Two pairs</dt><span class="dots"></span><dd>$69</dd></div><p class="sub">A second pair for $20 more.</p></div>
+      <div><div class="row"><dt>No-line progressive</dt><span class="dots"></span><dd>$139</dd></div><p class="sub">One pair, near and far, no visible line.</p></div>
+    </dl>
+    <h3>On the wall</h3>
+    <dl>
+      <div class="row"><dt>Oakley</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Ray-Ban</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Coach</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Versace</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Gucci</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Nike</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Silhouette</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Persol</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Guess</dt><span class="dots"></span><dd>in store</dd></div>
+      <div class="row"><dt>Pair Eyewear</dt><span class="dots"></span><dd>in store</dd></div>
+      <div><div class="row"><dt>Something else</dt><span class="dots"></span><dd>special order</dd></div><p class="sub">Ask and we look for it.</p></div>
+    </dl>
+    <h3>Good to know</h3>
+    <dl>
+      <div><div class="row"><dt>Your prescription</dt><span class="dots"></span><dd>any doctor</dd></div><p class="sub">We accept all prescriptions.</p></div>
+      <div class="row"><dt>Insurance</dt><span class="dots"></span><dd>accepted</dd></div>
+      <div class="row"><dt>Optical laboratory</dt><span class="dots"></span><dd>on site</dd></div>
+      <div class="row"><dt>Safety eyewear</dt><span class="dots"></span><dd>ANSI Z87.1</dd></div>
+      <div class="row"><dt>Open</dt><span class="dots"></span><dd>6 days, through lunch</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="letter" id="letter">
+  <h2 class="rv">From a customer</h2>
+  <div class="col">
+    <p class="open rv">Optical Source folks go above and beyond to make their customer happy.</p>
+    <p class="rv d1">With my new prescription, I was looking for the same pair of frames that I bought last year only to find that they weren't in stock any longer.</p>
+    <p class="rv d1">The manager at Optical Source took on the search for my frames, found them in a week or so, and they're currently putting my new lenses in them.</p>
+    <p class="sign rv d2">Vicki Barnett<br>Facebook recommendation, November 2024. 98% of 32 reviewers recommend the shop.</p>
+  </div>
+</section>
+
+<section class="stores" id="stores">
+  <h2 class="rv">Two stores on the High Plains</h2>
+  <div class="pair">
+    <article class="store rv">
+      <img src="assets/north-main-street-clovis-nm-32126117830-2017.jpg" width="1920" height="1280" loading="lazy" alt="North Main Street in Clovis, New Mexico">
+      <div class="in">
+        <h3>Clovis</h3>
+        <address>1908 N Prince St<br>Clovis, NM 88101</address>
+        <p class="cap">Pictured: North Main Street, Clovis.</p>
+        <a class="dir" href="https://www.google.com/maps/search/?api=1&amp;query=Optical+Source+1908+N+Prince+St+Clovis+NM+88101">Directions to Clovis</a>
+        <a class="btn" href="tel:+15757697766">Call 575-769-7766</a>
+      </div>
+    </article>
+    <article class="store rv d1">
+      <img src="assets/portales-new-mexico-skyline-aerial-view-2024.jpg" width="1920" height="1210" loading="lazy" alt="Portales, New Mexico seen from the air">
+      <div class="in">
+        <h3>Portales</h3>
+        <address>401 W 4th St<br>Portales, NM 88130</address>
+        <p class="cap">Pictured: Portales from the air.</p>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Optical+Source+401+W+4th+St+Portales+NM+88130">Directions to Portales</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="write" id="write">
+  <div class="coupon rv">
+    <div class="l">
+      <h2>Ask about a frame</h2>
+      <p>Looking for a certain frame, or want a price before you drive over? Write to us and we will call you back.</p>
+    </div>
+    <form action="mailto:opticalsource01@gmail.com" method="post" enctype="text/plain">
+      <label class="sr" for="n">Your name</label><input id="n" name="Name" placeholder="Your name" required>
+      <label class="sr" for="p">Phone</label><input id="p" name="Phone" type="tel" placeholder="Phone" required>
+      <label class="sr" for="s">Store</label><select id="s" name="Store"><option>Clovis store</option><option>Portales store</option></select>
+      <label class="sr" for="j">What are you looking for?</label><textarea id="j" name="Looking for" placeholder="What are you looking for?"></textarea>
+      <button type="submit">Send it</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="up">
+    <div>
+      <h2>Bring your prescription</h2>
+      <p class="rest">We do the rest, in Clovis and in Portales.</p>
+      <a class="btn" href="tel:+15757697766">Call 575-769-7766</a>
+    </div>
+    <ul class="links">
+      <li><a href="#packages">Packages from $49</a></li>
+      <li><a href="#stores">Clovis and Portales stores</a></li>
+      <li><a href="mailto:opticalsource01@gmail.com">opticalsource01@gmail.com</a></li>
+      <li><a href="https://www.facebook.com/opticalsource">Facebook</a></li>
+    </ul>
+  </div>
+  <div class="legal">
+    <span>Optical Source, Clovis and Portales, New Mexico. Since 1992. Preview by José Chaves.</span>
+    <span>Pictures: posters by Optical Source; <a href="https://commons.wikimedia.org/wiki/File:Downtown_Clovis_Evening_Sky.jpg">Downtown Clovis Evening Sky</a> by ArdenZ87, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>; <a href="https://commons.wikimedia.org/wiki/File:North_Main_Street,_Clovis,_NM_(32126117830)_(2017-01-17_by_Greg_Gjerdingen).jpg">North Main Street, Clovis</a> by Greg Gjerdingen, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>; <a href="https://commons.wikimedia.org/w/index.php?curid=156917376">Portales skyline aerial view 2024</a> by Quintin Soloviev, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>; all via Wikimedia Commons.</span>
+  </div>
+  <div class="giant" aria-hidden="true">Optical</div>
+</footer>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var data={
+    one:{p:'$49',t:'One pair, frame and lenses',d:'Choose from over 300 styles in the package selection. Hand us your prescription and we make the glasses.',s:'One pair package ($49)',b:'the one pair package'},
+    two:{p:'$69',t:'Two pairs, frames and lenses',d:'A pair for the house and a pair for the truck, or one clear and one tinted. The second pair is $20 more.',s:'Two pair package ($69)',b:'the two pair package'},
+    pro:{p:'$139',t:'One no-line progressive pair',d:'Near, far and in between in one lens, with no visible line. Frame included.',s:'No-line progressive package ($139)',b:'the no-line progressive package'}
+  };
+  var tabs=[].slice.call(document.querySelectorAll('.tabs button')),price=document.getElementById('price'),t=document.getElementById('ptitle'),d=document.getElementById('pdesc'),m=document.getElementById('pmail');
+  tabs.forEach(function(b){b.addEventListener('click',function(){
+    var x=data[b.dataset.k];
+    tabs.forEach(function(o){o.setAttribute('aria-selected',String(o===b))});
+    price.classList.add('out');
+    setTimeout(function(){price.textContent=x.p;t.textContent=x.t;d.textContent=x.d;price.classList.remove('out')},180);
+    m.href='mailto:opticalsource01@gmail.com?subject='+encodeURIComponent(x.s)+'&body='+encodeURIComponent('Hello, I would like '+x.b+'. My name and phone number: ');
+  })});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+})();
+</script>
+</body>
+</html>
