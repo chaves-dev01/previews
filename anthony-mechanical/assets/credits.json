@@ -1,0 +1,72 @@
+[
+ {
+  "file": "assets/midland-tx-skyline-cropped.jpg",
+  "media": "image",
+  "ref": "openverse:78eadbbd-4661-4af4-b00e-66c4ae879107",
+  "title": "Midland, TX skyline (cropped)",
+  "creator": "Quintin Soloviev",
+  "creatorUrl": "https://commons.wikimedia.org/wiki/User:Quintin_Soloviev",
+  "date": null,
+  "license": "CC BY 4.0",
+  "licenseCode": "by",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/w/index.php?curid=185571368",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Midland%2C_TX_skyline_%28cropped%29.jpg/1920px-Midland%2C_TX_skyline_%28cropped%29.jpg",
+  "width": 1920,
+  "height": 1080,
+  "bytes": 636370,
+  "credit": "\"Midland, TX skyline (cropped)\" by Quintin Soloviev, CC BY 4.0, via Wikimedia Commons",
+  "notes": [],
+  "saved": "2026-11-16T13:31:53.549Z"
+ },
+ {
+  "file": "assets/abilene-downtown-at-sunset.jpg",
+  "media": "image",
+  "ref": "openverse:69aab1d6-775c-4c96-aa4e-a44b18e6128d",
+  "title": "Abilene Downtown at Sunset",
+  "creator": "Flofor15",
+  "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Flofor15&action=edit&redlink=1",
+  "date": null,
+  "license": "CC BY-SA 3.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/w/index.php?curid=27570382",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Abilene_Downtown_at_Sunset.JPG/1920px-Abilene_Downtown_at_Sunset.JPG",
+  "width": 1920,
+  "height": 1280,
+  "bytes": 148571,
+  "credit": "\"Abilene Downtown at Sunset\" by Flofor15, CC BY-SA 3.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-11-16T13:31:54.990Z"
+ },
+ {
+  "file": "assets/former-texas-theater-in-downtown-san-angelo.jpg",
+  "media": "image",
+  "ref": "openverse:ccab856a-3498-45c9-8f21-67146ba3312c",
+  "title": "Former Texas Theater in downtown San Angelo IMG 4476",
+  "creator": "Billy Hathorn",
+  "creatorUrl": "https://commons.wikimedia.org/wiki/User:Billy_Hathorn",
+  "date": null,
+  "license": "CC BY-SA 3.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/w/index.php?curid=11184019",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Former_Texas_Theater_in_downtown_San_Angelo_IMG_4476.JPG/1920px-Former_Texas_Theater_in_downtown_San_Angelo_IMG_4476.JPG",
+  "width": 1920,
+  "height": 1440,
+  "bytes": 444124,
+  "credit": "\"Former Texas Theater in downtown San Angelo IMG 4476\" by Billy Hathorn, CC BY-SA 3.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-11-16T13:32:13.537Z"
+ }
+]
