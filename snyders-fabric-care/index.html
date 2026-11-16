@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Snyder's Fabric Care Center | Dry cleaners in Clovis, NM (preview)</title>
+<meta name="description" content="Preview page made for Snyder's Fabric Care Center: dry cleaning, shirts and jeans, alterations and wedding dresses in Clovis, New Mexico. Voted best dry cleaners 31 years in a row.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f3f5f2; --surface:#e2e8e2; --paper:#ffffff; --ink:#11201a; --muted:#44534b;
+  --green:#1b6a44; --green-2:#14553a; --deep:#0e3323; --white:#fff;
+  --m:clamp(16px,4vw,56px);
+  --step-small:clamp(0.8125rem,0.79rem + 0.1vw,0.875rem);
+  --step-body:clamp(1.0625rem,1rem + 0.25vw,1.1875rem);
+  --step-lead:clamp(1.25rem,1.1rem + 0.7vw,1.625rem);
+  --step-head:clamp(2rem,1.3rem + 3.2vw,4rem);
+  --f:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --sign:"Playfair Display",Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:var(--step-body);line-height:1.5;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-underline-offset:4px}
+h1,h2,h3{font-weight:700;letter-spacing:-0.03em;line-height:.95}
+h2{font-size:var(--step-head)}
+:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+::selection{background:var(--green);color:#fff}
+.note{background:var(--deep);color:var(--white);font-size:var(--step-small);text-align:center;padding:8px var(--m)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 28px;background:var(--green);color:var(--white);font-weight:700;font-family:inherit;font-size:var(--step-body);text-decoration:none;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{background:var(--deep);transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn.w{background:var(--white);color:var(--ink)}
+.btn.w:hover{background:var(--surface)}
+
+/* header */
+.top{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px var(--m)}
+.top .wm{font-weight:700;font-size:var(--step-lead);letter-spacing:-0.02em;text-decoration:none}
+.top ul{display:flex;gap:28px;list-style:none;align-items:center}
+.top .btn{min-height:48px;padding:0 20px}
+
+/* hero */
+.hero{display:grid;grid-template-columns:7fr 5fr;gap:clamp(24px,4vw,56px);padding:clamp(8px,2vh,24px) var(--m) clamp(56px,9vh,96px);align-items:end}
+.hero .num{position:relative;z-index:-1;overflow:hidden;padding-top:.06em;font-weight:700;font-size:clamp(11rem,33vw,30rem);line-height:.8;letter-spacing:-0.07em;color:var(--green);margin-left:-.04em}
+.hero h1{position:relative;z-index:1;font-size:clamp(2.25rem,5.4vw,5rem);margin-top:36px;max-width:12ch}
+.hero > div{position:relative;z-index:0}
+.hero .say{font-size:var(--step-lead);line-height:1.3;max-width:34ch;margin-top:20px}
+.hero .go{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.hero figure img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:30% 50%}
+.hero figcaption{font-size:1rem;color:var(--muted);margin-top:8px}
+
+/* the sign */
+.sign{background:var(--green);color:var(--white);padding:clamp(72px,12vh,140px) var(--m);display:grid;grid-template-columns:7fr 5fr;gap:clamp(24px,4vw,56px);align-items:center}
+.sign .board{background:var(--paper);color:var(--ink);padding:clamp(28px,4vw,56px)}
+.sign .board p.tlc{font-family:var(--sign);font-style:italic;font-weight:700;font-size:clamp(2rem,4.6vw,4.25rem);line-height:1.02;letter-spacing:-0.01em}
+.sign .board p.sds{font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:var(--step-lead);margin-top:16px}
+.sign h2{font-size:var(--step-head)}
+.sign .txt p{font-size:var(--step-lead);line-height:1.3;margin-top:20px;max-width:30ch}
+
+/* what we clean: tags + ticket */
+.clean{padding:clamp(88px,15vh,170px) var(--m);display:grid;grid-template-columns:7fr 5fr;gap:clamp(32px,5vw,72px);align-items:start}
+.clean h2{max-width:12ch}
+.clean .lede{font-size:var(--step-lead);line-height:1.3;margin-top:20px;max-width:32ch}
+.tags{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:40px}
+.tags label{display:block;position:relative;background:var(--surface);padding:22px 22px 22px 58px;min-height:128px;cursor:pointer;transition:background .2s,color .2s,transform .2s;clip-path:polygon(0 0,calc(100% - 22px) 0,100% 22px,100% 100%,0 100%)}
+.tags label:hover{transform:translateY(-2px)}
+.tags label::before{content:"";position:absolute;left:20px;top:24px;width:22px;height:22px;border-radius:50%;background:var(--bg)}
+.tags input{position:absolute;opacity:0;width:1px;height:1px}
+.tags input:checked + label{background:var(--green);color:var(--white)}
+.tags input:checked + label::before{background:var(--white)}
+.tags input:focus-visible + label{outline:3px solid var(--ink);outline-offset:3px}
+.tags b{display:block;font-size:var(--step-lead);letter-spacing:-0.02em;line-height:1.1}
+.tags span{display:block;margin-top:6px;line-height:1.35}
+.ticket{position:sticky;top:24px;background:var(--paper);padding:32px 28px 0}
+.ticket h3{font-size:var(--step-lead)}
+.ticket .no{font-weight:700;font-size:clamp(3rem,6vw,5rem);letter-spacing:-0.05em;line-height:.9;color:var(--green);margin-top:10px}
+.ticket ul{list-style:none;margin-top:20px;min-height:7.5em;display:grid;gap:6px;align-content:start}
+.ticket li{display:flex;justify-content:space-between;gap:12px;font-weight:500}
+.ticket .where{margin-top:20px}
+.ticket .acts{display:grid;gap:8px;margin:20px -28px 0;padding:22px 28px 28px;background:var(--surface);border-top:5px dotted var(--bg)}
+.ticket .acts .btn{width:100%}
+
+/* crew */
+.crew{background:var(--deep);color:var(--white);padding:clamp(88px,15vh,170px) var(--m)}
+.crew .hd{display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:end}
+.crew .hd p{font-size:var(--step-lead);line-height:1.3;max-width:34ch}
+.crew .ph{display:grid;grid-template-columns:7fr 5fr;gap:12px;margin-top:48px}
+.crew .ph img{width:100%;height:100%;object-fit:cover}
+.crew .ph .a img{aspect-ratio:4/3}
+.crew .ph .b{display:grid;gap:12px}
+.crew .ph .b img{aspect-ratio:16/10}
+.crew blockquote{margin-top:56px;display:grid;grid-template-columns:5fr 7fr;gap:32px}
+.crew blockquote p.q{font-size:clamp(1.5rem,2.6vw,2.25rem);line-height:1.2;font-weight:500;max-width:26ch}
+.crew cite{font-style:normal;font-size:1rem}
+
+/* award */
+.award{padding:clamp(88px,15vh,170px) var(--m);display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,5vw,72px);align-items:center}
+.award img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.award p{font-size:var(--step-lead);line-height:1.3;margin-top:20px;max-width:32ch}
+
+/* visit */
+.visit{background:var(--surface);padding:clamp(72px,12vh,140px) var(--m);display:grid;grid-template-columns:7fr 5fr;gap:32px;align-items:end}
+.visit address{font-style:normal;font-weight:700;font-size:clamp(1.25rem,3.6vw,3.5rem);white-space:nowrap;letter-spacing:-0.04em;line-height:.95;margin-top:24px}
+.visit .r{display:grid;gap:10px}
+.visit .r .btn{width:100%}
+
+/* footer */
+footer{background:var(--green);color:var(--white);overflow:hidden;padding:clamp(56px,9vh,96px) var(--m) 0}
+footer .up{display:grid;grid-template-columns:7fr 5fr;gap:32px}
+footer h2{font-family:var(--sign);font-style:italic;font-weight:700;letter-spacing:-0.01em;font-size:clamp(2.25rem,5vw,4.5rem);line-height:1.02;max-width:12ch}
+footer .btn{margin-top:28px}
+footer ul{list-style:none;justify-self:end;display:grid;gap:10px;align-content:start}
+footer .legal{font-size:1rem;margin-top:clamp(48px,8vh,96px);max-width:70ch}
+footer .giant{font-weight:700;font-size:25vw;line-height:.8;letter-spacing:-0.06em;white-space:nowrap;transform:translateY(22%);margin-top:1vw;color:var(--white)}
+
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .rv.on{opacity:1;transform:none}
+.js .rv.d1{transition-delay:.08s}.js .rv.d2{transition-delay:.16s}
+.hero .num{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{transform:translateY(8%);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.hero .num{animation:none}}
+
+@media (max-width:860px){
+  .top ul li:not(:last-child){display:none}
+  .top .wm{font-size:1.125rem}
+  .hero,.sign,.clean,.crew .hd,.crew .ph,.crew blockquote,.award,.visit,footer .up{grid-template-columns:1fr}
+  .hero .num{font-size:52vw}
+  .hero h1{font-size:10.5vw}
+  .visit address{font-size:5.4vw}
+  .hero .go .btn{flex:1 1 100%}
+  .hero figure img{aspect-ratio:4/3}
+  .tags{grid-template-columns:1fr}
+  .tags label{min-height:0}
+  .ticket{position:static}
+  .crew .hd{gap:16px}
+  .crew blockquote{gap:16px}
+  footer ul{justify-self:start}
+  footer .btn{width:100%}
+  footer .giant{font-size:31vw}
+}
+</style>
+</head>
+<body>
+<p class="note">Preview made for Snyder's Fabric Care Center by José Chaves. Not the live site yet.</p>
+
+<header class="top">
+  <a class="wm" href="#top">Snyder's Fabric Care</a>
+  <ul>
+    <li><a href="#clean">What we clean</a></li>
+    <li><a href="#crew">The crew</a></li>
+    <li><a href="#visit">Find us</a></li>
+    <li><a class="btn" href="tel:+15757627667">575-762-7667</a></li>
+  </ul>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div>
+    <p class="num" aria-hidden="true">31</p>
+    <h1>Snyder's Fabric Care Center</h1>
+    <p class="say">Voted best dry cleaners in Clovis 31 years in a row. Dry cleaning, shirts, alterations and wedding dresses, with same day service.</p>
+    <div class="go">
+      <a class="btn" href="tel:+15757627667">Call 575-762-7667</a>
+      <a class="btn w" href="#clean">Start a drop-off ticket</a>
+    </div>
+  </div>
+  <figure>
+    <img src="img/p01.jpg" width="1400" height="1400" alt="Snyder's building on North Prince Street: brick walls and a green metal roof">
+    <figcaption>3301 N Prince St, Clovis.</figcaption>
+  </figure>
+</section>
+
+<section class="sign" id="sign">
+  <div class="board rv">
+    <p class="tlc">with Tender Love and Care</p>
+    <p class="sds">Same day service</p>
+  </div>
+  <div class="txt">
+    <h2 class="rv">The sign over our counter</h2>
+    <p class="rv d1">It hangs in the plant, and we still mean both lines.</p>
+  </div>
+</section>
+
+<section class="clean" id="clean">
+  <div>
+    <h2 class="rv">What are you bringing in?</h2>
+    <p class="lede rv d1">Tick what is in the bag. Your drop-off ticket fills in beside it.</p>
+    <ul class="tags">
+      <li class="rv"><input type="checkbox" id="t1" data-n="Dry cleaning" checked><label for="t1"><b>Dry cleaning</b><span>Suits, dresses, coats and anything the label says not to wash.</span></label></li>
+      <li class="rv d1"><input type="checkbox" id="t2" data-n="Shirts and jeans"><label for="t2"><b>Shirts and jeans</b><span>Our shirt and jean service, washed and pressed.</span></label></li>
+      <li class="rv"><input type="checkbox" id="t3" data-n="Alterations"><label for="t3"><b>Alterations</b><span>A hem, a waist, a sleeve taken up.</span></label></li>
+      <li class="rv d1"><input type="checkbox" id="t4" data-n="Wedding dress"><label for="t4"><b>Wedding dress</b><span>Cleaned, boxed and sealed.</span></label></li>
+      <li class="rv"><input type="checkbox" id="t5" data-n="Bedspread or large blanket"><label for="t5"><b>Bedspreads and blankets</b><span>The large ones that can't be done at home.</span></label></li>
+      <li class="rv d1"><input type="checkbox" id="t6" data-n="Same day, please"><label for="t6"><b>Same day, please</b><span>Ask us when you drop it off.</span></label></li>
+    </ul>
+  </div>
+  <aside class="ticket rv" aria-live="polite">
+    <h3>Drop-off ticket</h3>
+    <p class="no" id="count">1 item</p>
+    <ul id="lines"><li><span>Dry cleaning</span><span>1</span></li></ul>
+    <p class="where">Bring it to 3301 N Prince St, Clovis. Prices are given at the counter.</p>
+    <div class="acts">
+      <a class="btn" id="tmail" href="mailto:snyderscleaners@plateautel.net?subject=Drop-off%20ticket&amp;body=I%20am%20bringing%20in%3A%20Dry%20cleaning.%20My%20name%20and%20phone%3A%20">Email this ticket</a>
+      <a class="btn w" href="tel:+15757627667">Or call 575-762-7667</a>
+    </div>
+  </aside>
+</section>
+
+<section class="crew" id="crew">
+  <div class="hd">
+    <h2 class="rv">The crew</h2>
+    <p class="rv d1">The same faces at the counter and at the presses, year after year.</p>
+  </div>
+  <div class="ph">
+    <div class="a rv"><img src="img/p09.jpg" width="1400" height="1050" loading="lazy" alt="The Snyder's crew standing under the sign that reads with Tender Love and Care, same day service, holding the Reader's Choice award"></div>
+    <div class="b">
+      <img class="rv d1" src="img/p02.jpg" width="1400" height="1400" loading="lazy" alt="The crew sitting outside under the green Snyder's Cleaners and Laundry lettering">
+      <img class="rv d2" src="img/p07.jpg" width="1400" height="1050" loading="lazy" alt="The crew gathered around a table of donuts in the plant">
+    </div>
+  </div>
+  <blockquote>
+    <cite class="rv">Britni Gallegos<br>Facebook recommendation</cite>
+    <p class="q rv d1">Best cleaners and staff!! Cindy and her crew work hard and always pleasant.</p>
+  </blockquote>
+</section>
+
+<section class="award" id="award">
+  <img class="rv" src="img/p03.jpg" width="1400" height="1050" loading="lazy" alt="Reader's Choice Award certificate: 31st annual Best of Clovis, Best Dry Cleaning, Snyder's Fabric Care Center">
+  <div>
+    <h2 class="rv">Best dry cleaners, 31 years running</h2>
+    <p class="rv d1">The Reader's Choice Award, voted by the people of Clovis. Thank you so much for voting for us, again.</p>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div>
+    <h2 class="rv">Find us</h2>
+    <address class="rv d1">3301 N Prince St, Clovis NM</address>
+  </div>
+  <div class="r rv d1">
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Snyder%27s+Fabric+Care+Center+3301+N+Prince+St+Clovis+NM">Directions</a>
+    <a class="btn w" href="tel:+15757627667">Call 575-762-7667</a>
+    <a class="btn w" href="mailto:snyderscleaners@plateautel.net">snyderscleaners@plateautel.net</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="up">
+    <div>
+      <h2>with Tender Love and Care</h2>
+      <a class="btn w" href="tel:+15757627667">Call 575-762-7667</a>
+    </div>
+    <ul>
+      <li><a href="#clean">Start a drop-off ticket</a></li>
+      <li><a href="#visit">3301 N Prince St, Clovis</a></li>
+      <li><a href="mailto:snyderscleaners@plateautel.net">snyderscleaners@plateautel.net</a></li>
+      <li><a href="https://www.facebook.com/Snydersdrycleaners">Facebook</a></li>
+    </ul>
+  </div>
+  <p class="legal">Snyder's Your Fabric Care Center, Inc. Photographs: Snyder's Fabric Care Centers. Preview by José Chaves.</p>
+  <div class="giant" aria-hidden="true">Snyder's</div>
+</footer>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var boxes=[].slice.call(document.querySelectorAll('.tags input')),lines=document.getElementById('lines'),count=document.getElementById('count'),mail=document.getElementById('tmail');
+  function draw(){
+    var on=boxes.filter(function(b){return b.checked}).map(function(b){return b.dataset.n});
+    lines.innerHTML='';
+    on.forEach(function(n){var li=document.createElement('li'),a=document.createElement('span'),c=document.createElement('span');a.textContent=n;c.textContent='1';li.appendChild(a);li.appendChild(c);lines.appendChild(li)});
+    if(!on.length){var li=document.createElement('li');li.textContent='Nothing ticked yet.';lines.appendChild(li)}
+    count.textContent=on.length+(on.length===1?' item':' items');
+    mail.href='mailto:snyderscleaners@plateautel.net?subject='+encodeURIComponent('Drop-off ticket')+'&body='+encodeURIComponent('I am bringing in: '+(on.join(', ')||'(not sure yet)')+'. My name and phone: ');
+  }
+  boxes.forEach(function(b){b.addEventListener('change',draw)});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.1});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+})();
+</script>
+</body>
+</html>
