@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Willis Plumbing, Heating and Air | Amarillo since 1974 (preview)</title>
+<meta name="description" content="Preview page made for Willis Plumbing, Heating and Air: family-owned plumbing and HVAC in Amarillo since 1974. Trenchless sewer line replacement, heating and cooling, repairs. Free estimates.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef0f1; --surface:#dfe3e5; --paper:#fff; --ink:#111417; --muted:#3f474e;
+  --black:#14171a; --black-2:#1e2226; --blue:#27a6dc; --blue-2:#1586b8; --dirt:#6b4a33; --grass:#78b04a; --white:#fff;
+  --m:clamp(16px,4vw,56px);
+  --step-small:clamp(0.8125rem,0.79rem + 0.1vw,0.875rem);
+  --step-body:clamp(1.0625rem,1rem + 0.25vw,1.1875rem);
+  --step-lead:clamp(1.25rem,1.1rem + 0.7vw,1.625rem);
+  --step-head:clamp(2.25rem,1.3rem + 3.8vw,4.5rem);
+  --d:"Oswald","Arial Narrow",Impact,sans-serif;
+  --f:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:var(--step-body);line-height:1.5;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-underline-offset:4px}
+h1,h2,h3{font-family:var(--d);font-weight:700;text-transform:uppercase;letter-spacing:-0.005em;line-height:.95}
+h2{font-size:var(--step-head)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+::selection{background:var(--blue);color:#fff}
+.note{background:var(--blue);color:var(--ink);font-size:var(--step-small);text-align:center;padding:8px var(--m)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 26px;background:var(--blue);color:var(--ink);font-family:var(--d);font-weight:600;font-size:1.25rem;text-transform:uppercase;text-decoration:none;border:0;cursor:pointer;white-space:nowrap;transition:background .2s,transform .2s}
+.btn:hover{background:var(--white);transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn.w{background:var(--paper);color:var(--ink)}
+.btn.w:hover{background:var(--surface)}
+.btn.k{background:var(--black);color:var(--white)}
+.btn.k:hover{background:#000}
+
+.top{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:14px var(--m);background:var(--black);color:var(--white)}
+.top .wm{display:flex;align-items:center;gap:12px;font-family:var(--d);font-weight:700;font-size:1.375rem;text-transform:uppercase;text-decoration:none}
+.top .wm img{width:44px;height:44px;border-radius:50%;background:#fff}
+.top ul{display:flex;gap:28px;list-style:none;align-items:center;font-weight:600}
+.top .btn{min-height:46px;padding:0 18px}
+
+/* hero */
+.hero{background:var(--black);color:var(--white);padding:clamp(24px,5vh,56px) var(--m) clamp(56px,9vh,96px);display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(24px,4vw,56px);align-items:center}
+.hero .since{font-family:var(--d);font-weight:600;font-size:var(--step-lead);color:var(--blue);text-transform:uppercase}
+.hero h1{font-size:clamp(2.75rem,5.6vw,5.5rem);margin-top:10px;white-space:nowrap}
+.hero h1 span{display:block;font-size:.42em;color:var(--blue);margin-top:.2em}
+.hero > div,.call > div{position:relative;z-index:1}
+.hero .since{position:relative;z-index:1}
+.hero .say{font-size:var(--step-lead);line-height:1.3;max-width:34ch;margin-top:20px}
+.hero .go{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.hero .lic{margin-top:18px;color:#c9d0d6}
+.hero img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:78% 50%}
+
+/* dig or burst */
+.burst{padding:clamp(88px,15vh,170px) var(--m)}
+.burst .hd{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px;align-items:end}
+.burst .hd p{font-size:var(--step-lead);line-height:1.3;max-width:36ch}
+.toggle{display:flex;flex-wrap:wrap;gap:8px;margin-top:36px}
+.toggle button{font:inherit;font-weight:600;font-size:var(--step-lead);min-height:56px;padding:0 22px;background:var(--paper);color:var(--ink);border:0;cursor:pointer;transition:background .2s,color .2s}
+.toggle button:hover{background:var(--surface)}
+.toggle button[aria-pressed="true"]{background:var(--black);color:var(--white)}
+.yard{margin-top:12px;background:#bfe3f5}
+.yard svg{display:block;width:100%;height:auto}
+.trench,.pits,.newpipe,.oldpipe{transition:opacity .5s ease}
+.newpipe{stroke-dasharray:820;stroke-dashoffset:820;transition:stroke-dashoffset 1.6s cubic-bezier(.4,0,.2,1),opacity .4s}
+.mode-burst .newpipe{stroke-dashoffset:0}
+.mode-dig .pits,.mode-dig .newpipe{opacity:0}
+.mode-burst .trench{opacity:0}
+.lbl{font:600 34px "Source Sans 3",Arial,sans-serif;fill:#111}
+.lbl.w{fill:#fff}
+.trailer{margin-top:8px}
+.trailer img{width:100%}
+.trailer figcaption{color:var(--muted);margin-top:8px;font-size:1rem}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:8px}
+.facts div{background:var(--paper);padding:22px}
+.facts b{display:block;font-family:var(--d);font-size:clamp(1.5rem,2.4vw,2.25rem);text-transform:uppercase;line-height:1}
+.facts span{display:block;margin-top:8px}
+
+/* what we do */
+.do{background:var(--black);color:var(--white);padding:clamp(88px,15vh,170px) 0 0}
+.do h2{padding:0 var(--m)}
+.do ul{list-style:none;margin-top:44px}
+.do li p{max-width:60ch}
+.do li{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px;align-items:center;min-height:112px;padding:20px var(--m)}
+.do li:nth-child(odd){background:var(--black-2)}
+.do li.hl{background:var(--blue);color:var(--ink)}
+.do h3{font-size:clamp(1.75rem,3vw,2.75rem)}
+
+/* family */
+.fam{padding:clamp(88px,15vh,170px) var(--m);display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(32px,5vw,72px);align-items:center}
+.fam img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 40%}
+.fam figcaption{color:var(--muted);margin-top:8px;font-size:1rem}
+.fam p{font-size:var(--step-lead);line-height:1.35;max-width:34ch;margin-top:20px}
+
+/* reviews */
+.said{background:var(--surface);padding:clamp(88px,15vh,170px) var(--m)}
+.said .row{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,4fr) minmax(0,3fr);gap:10px;margin-top:44px;align-items:start}
+.said blockquote:nth-child(1){background:var(--black);color:var(--white);min-height:300px}
+.said blockquote:nth-child(1) p{font-family:var(--d);text-transform:uppercase;font-size:clamp(1.5rem,2.4vw,2.25rem);line-height:1.05}
+.said blockquote{background:var(--paper);padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.said blockquote p{font-size:var(--step-lead);line-height:1.3}
+.said cite{font-style:normal;font-weight:600}
+.said .score{margin-top:20px;font-size:var(--step-lead)}
+
+/* band */
+.band{padding:clamp(88px,15vh,170px) var(--m);display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,72px);align-items:center}
+.band img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.band p{font-size:var(--step-lead);line-height:1.35;max-width:32ch;margin-top:20px}
+
+/* call */
+.call{background:var(--blue);color:var(--ink);padding:clamp(88px,15vh,170px) var(--m);display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:32px;align-items:end}
+.call .tel{display:block;font-family:var(--d);font-weight:700;font-size:clamp(2.75rem,8vw,7.5rem);line-height:.9;text-decoration:none;white-space:nowrap;margin-top:40px}
+.call dl{display:grid;gap:14px}
+.call dt{font-weight:600}
+.call dd{font-size:var(--step-lead);line-height:1.25}
+
+footer{background:var(--black);color:var(--white);overflow:hidden;padding:clamp(48px,8vh,88px) var(--m) 0}
+footer .up{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
+footer ul{list-style:none;display:flex;flex-wrap:wrap;gap:12px 28px}
+footer .legal{font-size:1rem;margin-top:28px;color:#c9d0d6}
+footer .giant{font-family:var(--d);font-weight:700;font-size:34vw;line-height:.78;white-space:nowrap;text-transform:uppercase;transform:translateY(20%);margin-top:3vw;color:var(--white)}
+
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js .rv.on{opacity:1;transform:none}
+.js .rv.d1{transition-delay:.08s}.js .rv.d2{transition-delay:.16s}
+.hero img{animation:slide 1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes slide{from{transform:translateX(5%);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.hero img{animation:none}.newpipe,.trench,.pits{transition:none}}
+
+@media (max-width:860px){
+  .top ul li:not(:last-child){display:none}
+  .top .wm span{display:none}
+  .hero,.burst .hd,.do li,.fam,.band,.call{grid-template-columns:minmax(0,1fr)}
+  .hero h1{font-size:11.8vw}
+  .hero .go .btn{flex:1 1 100%}
+  .toggle button{flex:1 1 100%}
+  .facts,.said .row{grid-template-columns:1fr}
+  .do li{gap:6px}
+  .call .tel{font-size:12.4vw}
+}
+</style>
+</head>
+<body>
+<p class="note">Preview made for Willis Plumbing, Heating and Air by José Chaves. Not the live site yet.</p>
+
+<header class="top">
+  <a class="wm" href="#top"><img src="img/logo.jpg" width="700" height="700" alt=""><span>Willis Plumbing</span></a>
+  <ul>
+    <li><a href="#burst">Pipe bursting</a></li>
+    <li><a href="#do">Services</a></li>
+    <li><a href="#said">Reviews</a></li>
+    <li><a class="btn" href="tel:+18063744551">806-374-4551</a></li>
+  </ul>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div>
+    <p class="since">Family owned since 1974</p>
+    <h1>Willis Plumbing <span>Heating and Air</span></h1>
+    <p class="say">Plumbing, heating and air conditioning in Amarillo. New installations, repairs and maintenance, and sewer lines replaced without digging up your yard.</p>
+    <div class="go">
+      <a class="btn" href="tel:+18063744551">Free estimate: 806-374-4551</a>
+      <a class="btn w" href="#burst">How pipe bursting works</a>
+    </div>
+    <p class="lic">Licenses RM7612 and B006180E</p>
+  </div>
+  <img src="img/p01.jpg" width="1400" height="1400" alt="The Willis Plumbing Company trailer, painted with a pipe-bursting diagram and the number 806-374-4551">
+</section>
+
+<section class="burst" id="burst">
+  <div class="hd">
+    <h2 class="rv">Dig up the yard, or don't</h2>
+    <p class="rv d1">We replace sewer lines without digging up the yard or the house. Tap each way to see the difference.</p>
+  </div>
+  <div class="toggle rv d1" role="group" aria-label="How the sewer line is replaced">
+    <button type="button" data-m="dig" aria-pressed="false">The old way: dig a trench</button>
+    <button type="button" data-m="burst" aria-pressed="true">Pipe bursting</button>
+  </div>
+  <div class="yard rv d1 mode-burst" id="yard">
+    <svg viewBox="0 0 1000 420" role="img" aria-labelledby="yt">
+      <title id="yt">Cross-section of a yard with a house on the left and the street on the right, showing how the sewer line is replaced</title>
+      <rect x="0" y="0" width="1000" height="170" fill="#bfe3f5"/>
+      <rect x="40" y="70" width="190" height="100" fill="#f4f1ea"/>
+      <polygon points="30,72 135,20 240,72" fill="#14171a"/>
+      <rect x="120" y="115" width="34" height="55" fill="#6b4a33"/>
+      <g fill="#2e6b2b"><circle cx="600" cy="110" r="44"/><rect x="594" y="130" width="12" height="40" fill="#5a3b22"/></g>
+      <rect x="0" y="170" width="1000" height="22" fill="#78b04a"/>
+      <rect x="0" y="192" width="1000" height="228" fill="#6b4a33"/>
+      <rect x="880" y="160" width="120" height="32" fill="#888"/>
+      <text class="lbl" x="872" y="150">Street</text>
+      <line class="oldpipe" x1="210" y1="320" x2="930" y2="320" stroke="#3a2a1d" stroke-width="18" stroke-dasharray="26 10"/>
+      <g class="trench"><rect x="230" y="170" width="680" height="170" fill="#a07a58"/><text class="lbl w" x="330" y="250">Trench across the yard</text></g>
+      <g class="pits"><rect x="226" y="170" width="70" height="170" fill="#a07a58"/><rect x="842" y="170" width="70" height="170" fill="#a07a58"/><text class="lbl w" x="226" y="395">Entry pit</text><text class="lbl w" x="790" y="395">Exit pit</text></g>
+      <line class="newpipe" x1="930" y1="320" x2="210" y2="320" stroke="#27a6dc" stroke-width="12"/>
+      <text class="lbl w" x="320" y="298" id="pipelbl">New pipe pulled through</text>
+    </svg>
+  </div>
+  <figure class="trailer rv"><img src="img/p08.jpg" width="1400" height="732" loading="lazy" alt="The side of the Willis trailer: a painted diagram of pipe bursting with an entry and exit access point, and the line Replace sewer lines without digging up the yard or house"></figure>
+  <div class="facts" aria-live="polite">
+    <div class="rv"><b id="f1">Two access points</b><span id="f1s">One pit where the line leaves the house, one where it meets the street.</span></div>
+    <div class="rv d1"><b id="f2">Old pipe bursts</b><span id="f2s">It shatters outwards and the new pipe is left in its place.</span></div>
+    <div class="rv d2"><b id="f3">Yard stays</b><span id="f3s">The lawn, the tree and the driveway in between are not dug up.</span></div>
+  </div>
+</section>
+
+<section class="do" id="do">
+  <h2 class="rv">What we do</h2>
+  <ul>
+    <li class="rv"><h3>General plumbing</h3><p>Services and repairs, from a clogged drain to a gas line.</p></li>
+    <li class="rv hl"><h3>Trenchless sewer lines</h3><p>Sewer lines replaced by pipe bursting, even under a building.</p></li>
+    <li class="rv"><h3>Heating</h3><p>Furnace and heating installations, repairs and maintenance by our licensed HVAC contractors.</p></li>
+    <li class="rv"><h3>Air conditioning</h3><p>Cooling installations and repairs for the Amarillo summer.</p></li>
+    <li class="rv"><h3>Free estimates</h3><p>Call 806-374-4551 and we come and look.</p></li>
+  </ul>
+</section>
+
+<section class="fam" id="family">
+  <figure class="rv">
+    <img src="img/p07.jpg" width="1393" height="1400" loading="lazy" alt="A Willis Plumbing man in a company shirt at his desk with a small grandson on his lap">
+    <figcaption>Shepherd helping his Grumps at work, August 2025.</figcaption>
+  </figure>
+  <div>
+    <h2 class="rv">Three generations of Willis</h2>
+    <p class="rv d1">Willis Plumbing has been in business since 1974. Marlin ran it until he retired in January 2016. Now Matt runs it.</p>
+    <p class="rv d1">Family owned and operated, at 900 Ottawa Trail.</p>
+  </div>
+</section>
+
+<section class="said" id="said">
+  <h2 class="rv">What customers say</h2>
+  <p class="score rv d1">100% of 15 reviewers on Facebook recommend Willis.</p>
+  <div class="row">
+    <blockquote class="rv"><p>The final bill was actually less than his bid.</p><cite>Cinda, on a sewer line replaced under a building</cite></blockquote>
+    <blockquote class="rv d1"><p>His bid for the job came in 5 times less expensive than our first quote.</p><cite>Menues, on a gas pipe repair</cite></blockquote>
+    <blockquote class="rv d2"><p>Reliable, fast, friendly and affordable. Willis is by far the best!</p><cite>Morgan Nichols, February 2025</cite></blockquote>
+  </div>
+</section>
+
+<section class="band" id="band">
+  <img class="rv" src="img/p09.jpg" width="1400" height="1125" loading="lazy" alt="Thank-you poster from the 2022 Randall Rhythm state qualifier marching band">
+  <div>
+    <h2 class="rv">Proud to support the band</h2>
+    <p class="rv d1">Good luck at State to the Randall High Band, West Plains and Canyon High School. They sent this back.</p>
+  </div>
+</section>
+
+<section class="call" id="call">
+  <div>
+    <h2 class="rv">Call for a free estimate</h2>
+    <a class="tel rv d1" href="tel:+18063744551">806-374-4551</a>
+  </div>
+  <dl class="rv d1">
+    <div><dt>Office</dt><dd>900 Ottawa Trail, Amarillo, TX 79118</dd></div>
+    <div><dt>Email</dt><dd><a href="mailto:willisplumbing74@yahoo.com">willisplumbing74@yahoo.com</a></dd></div>
+    <div><dt>Hours, as last published</dt><dd>Mon to Fri, 8 to 5</dd></div>
+  </dl>
+</section>
+</main>
+
+<footer>
+  <div class="up">
+    <p>Willis Plumbing, Heating and Air LLC. Amarillo, Texas, since 1974.</p>
+    <ul>
+      <li><a href="#burst">Pipe bursting</a></li>
+      <li><a href="https://www.google.com/maps/search/?api=1&amp;query=900+Ottawa+Trail+Amarillo+TX+79118">Directions</a></li>
+      <li><a href="https://www.facebook.com/willisplumbingcompany/">Facebook</a></li>
+    </ul>
+  </div>
+  <p class="legal">Photographs: Willis Plumbing, Heating and Air. Reviews from the company's former site and Facebook page. Preview by José Chaves.</p>
+  <div class="giant" aria-hidden="true">Willis</div>
+</footer>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var yard=document.getElementById('yard'),btns=[].slice.call(document.querySelectorAll('.toggle button')),lbl=document.getElementById('pipelbl');
+  var T={
+    burst:[['Two access points','One pit where the line leaves the house, one where it meets the street.'],['Old pipe bursts','It shatters outwards and the new pipe is left in its place.'],['Yard stays','The lawn, the tree and the driveway in between are not dug up.']],
+    dig:[['One long trench','Dug the full length of the line, from the house to the street.'],['Old pipe dug out','The line is exposed and replaced section by section.'],['Yard rebuilt after','Lawn, tree roots and concrete in the way have to be put back.']]
+  };
+  function set(m){
+    yard.classList.toggle('mode-burst',m==='burst');yard.classList.toggle('mode-dig',m==='dig');
+    btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.m===m))});
+    lbl.style.opacity=m==='burst'?1:0;
+    T[m].forEach(function(t,i){document.getElementById('f'+(i+1)).textContent=t[0];document.getElementById('f'+(i+1)+'s').textContent=t[1]});
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.m)})});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.1});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  if(!matchMedia('(prefers-reduced-motion:reduce)').matches){
+    yard.classList.remove('mode-burst');
+    var o=new IntersectionObserver(function(es){if(es[0].isIntersecting){setTimeout(function(){set('burst')},300);o.disconnect()}},{threshold:.4});o.observe(yard);
+  }
+})();
+</script>
+</body>
+</html>
